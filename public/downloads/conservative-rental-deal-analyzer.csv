@@ -1,0 +1,25 @@
+Field,Your value,Unit,How to use
+Purchase price,,$,User input
+Monthly scheduled rent,,$,User input
+Vacancy and collection loss,,%,Use decimal in formulas; 5% = 0.05
+Annual scheduled rent,,$,Monthly rent x 12
+Annual effective rental income,,$,Annual scheduled rent x (1 - vacancy rate)
+Annual property taxes,,$,User input
+Annual insurance,,$,User input
+Annual owner-paid utilities,,$,User input
+Annual management,,$,User input
+Annual routine repairs,,$,User input
+Annual HOA licensing and other operating costs,,$,User input
+Annual operating expenses,,$,Sum operating costs; exclude debt capital reserve depreciation and income tax
+Annual NOI,,$,Effective rental income - operating expenses
+Annual debt service,,$,Principal and interest; exclude escrow counted in operating expenses
+Annual capital reserve,,$,Separate from operating expenses
+Annual before-tax cash flow after reserves,,$,NOI - debt service - capital reserve
+Monthly before-tax cash flow after reserves,,$,Annual cash flow / 12
+Total initial cash invested,,$,Down payment + closing + initial rehab + initial reserves
+Cap rate,,%,NOI / purchase price x 100; price must be positive
+Cash-on-cash after reserves,,%,Annual cash flow / cash invested x 100; invested cash must be positive
+Optional DSCR,,ratio,NOI / annual debt service; debt service must be positive; lender definitions differ
+Optional break-even occupancy,,%,(Operating expenses + debt service + capital reserve) / scheduled annual rent x 100; rent must be positive; simplified fixed-cost estimate
+How to use,,,Enter your documented estimates in the blank value column. Calculate manually in your spreadsheet; this CSV has no executable formulas. Keep annual and monthly figures consistent.
+Disclaimer,,,Illustrative educational estimates only. Real estate investing involves risk. Jay Adams is not a broker lender tax preparer attorney or investment adviser.

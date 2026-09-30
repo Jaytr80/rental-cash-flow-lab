@@ -1,0 +1,212 @@
+[
+  [
+    "Pipeline index",
+    "Compare the same assumptions across deals.",
+    [
+      "Use multi-deal-pipeline.csv for one property per row. Record your source and date for rent, taxes, insurance, and financing. Leave unknowns blank rather than treating them as zero.",
+      "Keep asking price separate from your proposed purchase price. Annualize rent, vacancy, expenses, debt service, and reserves consistently before comparing cash flow.",
+      "NOI = annual scheduled rent x (1 - vacancy rate) - annual operating expenses. Before-tax cash flow after reserves = NOI - annual debt service - annual capital reserve.",
+      "Use the next action and decision columns to distinguish research, hold, reject, and further diligence. A high estimate is not a reason to skip a missing inspection or financing condition.",
+      "Pack map: Freedom Number; market screen; conservative underwriting; annual review; management scorecard; investment policy; stress test; BRRRR exit-first; rehab walk; appraisal prep; refinance timeline; CPA questions.",
+      "Property to investigate next: __________________   Missing evidence: __________________",
+      "Next action / owner / due date: __________________________________________________"
+    ]
+  ],
+  [
+    "Freedom Number worksheet",
+    "Define the target before estimating how to reach it.",
+    [
+      "Monthly household spending target: $________   Additional monthly buffer: $________",
+      "Reliable monthly non-rental income available for that target: $________",
+      "Monthly gap = max(0, spending target + buffer - non-rental income): $________",
+      "Annual gap = monthly gap x 12: $________. Keep personal taxes and health costs visible in your spending plan; discuss estimates with qualified professionals.",
+      "Conservative annual cash flow per property, after debt service and capital reserves: $________",
+      "Illustrative property count = annual gap / positive annual cash flow per property, rounded up: ________. If estimated cash flow is zero or negative, this ratio is not meaningful.",
+      "This count is a planning simplification, not a purchase target or a guarantee. Properties differ; vacancies and major repairs may occur together.",
+      "Cash reserve target: $________   Time available to manage: ________ hours/month",
+      "What would require changing the plan? __________________________________________________"
+    ]
+  ],
+  [
+    "Market screening checklist",
+    "Collect evidence before selecting a neighborhood.",
+    [
+      "[ ] Define the geographic boundary, property type, and intended tenant use.",
+      "[ ] Record several comparable rentals with dates, condition, concessions, and time listed. Distinguish asking rents from signed lease evidence.",
+      "[ ] Research employment concentration, access to daily needs, and competing rental supply. Record sources; do not assume historical trends will continue.",
+      "[ ] Check local rental licensing, inspection, zoning, occupancy, and landlord requirements with official sources and qualified local counsel.",
+      "[ ] Obtain insurance indications and investigate flood, fire, storm, and other property-specific hazards.",
+      "[ ] Verify taxes and possible reassessment after purchase. Review utility responsibility, HOA restrictions, and special assessments.",
+      "[ ] Ask local managers about leasing time, service costs, tenant turnover, and operational constraints.",
+      "Market / research date: __________________   Sources: ______________________________",
+      "Unanswered questions / reason to pause: ____________________________________________"
+    ]
+  ],
+  [
+    "Conservative underwriting checklist",
+    "Make the assumptions visible and consistent.",
+    [
+      "[ ] Separate verified documents from estimates. Date every key input and record its source.",
+      "[ ] Use supportable monthly rent; include vacancy and collection loss. Do not treat a seller pro forma as a lease.",
+      "[ ] Include taxes, insurance, owner-paid utilities, management, routine repairs, HOA costs, licensing, and other recurring operating costs.",
+      "[ ] Include management cost even if initially self-managing. Keep capital replacements in a separate reserve to avoid hiding them.",
+      "[ ] NOI excludes loan payments, depreciation, income taxes, and capital expenditures. State your convention when comparing reports.",
+      "[ ] Use actual proposed principal-and-interest payments and financing fees. Do not count tax/insurance escrow twice.",
+      "[ ] Cash invested includes down payment, closing, initial rehab, and initial reserves; do not use down payment alone.",
+      "[ ] Test lower rent, higher vacancy, repairs, insurance changes, and financing changes. Identify the cash needed to cover shortfalls.",
+      "[ ] Confirm inspection, title, lease, insurance, and lender conditions before a commitment.",
+      "Weakest assumption / next evidence needed: _________________________________________"
+    ]
+  ],
+  [
+    "Annual portfolio review",
+    "Compare your plan with what actually happened.",
+    [
+      "Review year: ________   Properties reviewed: ________   Records reconciled on: ________",
+      "Annual scheduled rent $________ / collected rent $________ / vacancy and loss $________",
+      "Operating expenses $________ / NOI $________ / debt service $________ / capital work $________",
+      "Cash flow after actual capital spending $________ / budgeted cash flow $________",
+      "Compare actual capital spending with your reserve funding separately; do not subtract both as though they were the same expense.",
+      "Reserve balance $________ / upcoming replacements $________ / reserve gap $________",
+      "Loan balances, rate resets, maturity dates, and covenants: ______________________________",
+      "Lease expirations, insurance renewals, inspections, and compliance dates: __________________",
+      "Concentration risks by market, employer, property type, and lender: ______________________",
+      "Keep / investigate / improve decision, evidence, owner, and next review date: ________________"
+    ]
+  ],
+  [
+    "Management scorecard",
+    "Review service quality, not just a single return metric.",
+    [
+      "Property / manager / review period: __________________________________________________",
+      "For each area, write the agreed standard, observed result, evidence, and follow-up. Use 1 = needs attention, 2 = mixed, 3 = meets agreed standard; N/A if not measured.",
+      "Leasing: time to lease, documentation quality, and approved concessions. Score ____ Evidence ____",
+      "Collections: timeliness, arrears follow-up, and accurate reporting. Score ____ Evidence __________",
+      "Maintenance: response time, approval process, completion, and invoices. Score ____ Evidence ____",
+      "Resident communication: responsiveness and fair, consistent treatment. Score ____ Evidence ____",
+      "Financial reporting: reconciliations, receipts, and reserve visibility. Score ____ Evidence __________",
+      "Compliance: licensing, inspections, notices, and document retention. Score ____ Evidence ______",
+      "Follow-up action / responsible person / deadline: ________________________________________",
+      "Do not collect unnecessary tenant personal information in this worksheet. Review against your management agreement and applicable requirements."
+    ]
+  ],
+  [
+    "Investment policy statement",
+    "Write your own decision rules before a tempting listing appears.",
+    [
+      "My purpose for rental ownership and the role it plays in my wider finances: ___________________",
+      "Property types and markets I understand; those I will avoid: ______________________________",
+      "Time I can commit, and work that must be delegated: ____________________________________",
+      "Maximum cash committed per property and portfolio reserve minimum: _____________________",
+      "Financing constraints, rate-reset tolerance, and maturity concentration limits: __________________",
+      "Required evidence for rent, condition, operating costs, and exit assumptions: __________________",
+      "Circumstances requiring independent professional review: _________________________________",
+      "Reasons to reject a deal even if the headline numbers appear attractive: _____________________",
+      "Review frequency, triggers for a sale review, and who may challenge my assumptions: ___________",
+      "Date / version / next review: __________________________________________________________"
+    ]
+  ],
+  [
+    "Stress-test sheet",
+    "Ask what happens when several assumptions disappoint.",
+    [
+      "Create base, downside, and severe-but-plausible columns in your own spreadsheet. Choose changes from local evidence; no preset shock is appropriate for every property.",
+      "                                      BASE             DOWNSIDE             SEVERE",
+      "Monthly rent                 $________         $________           $________",
+      "Vacancy rate                  ________%        ________%          ________%",
+      "Annual operating costs   $________         $________           $________",
+      "Annual debt service       $________         $________           $________",
+      "Annual capital reserve   $________         $________           $________",
+      "NOI = monthly rent x 12 x (1 - vacancy) - annual operating costs.",
+      "Cash flow = NOI - annual debt service - annual capital reserve. Results: $____ / $____ / $____",
+      "Liquid reserve available: $________. If monthly cash flow is negative, rough shortfall coverage in months = available reserve / absolute monthly shortfall. One-time shocks reduce available reserves first.",
+      "Add a one-time repair, leasing delay, or refinance failure. Action required and cash source: _______",
+      "This simplified model excludes tax effects and assumes expenses do not vary automatically with occupancy. State any changes you make."
+    ]
+  ],
+  [
+    "BRRRR exit-first worksheet",
+    "Plan for the refinance to be smaller, later, or unavailable.",
+    [
+      "Purchase $________ + rehab $________ + contingency $________ + holding costs $________",
+      "+ acquisition closing costs $________ = total project cost $________",
+      "Initial borrowed funds $________   Initial cash contributed $________",
+      "ARV (after-repair value) estimate $________   Supporting comparables / date: ________________",
+      "Proposed LTV ________%   Value-based refinance estimate = ARV x LTV: $________",
+      "Other lender limits (income coverage, seasoning, loan caps, condition): ______________________",
+      "Estimated approved loan, subject to lender review: $________   Existing payoff: $________",
+      "Refinance fees / prepaids / required reserves: $________",
+      "Net refinance proceeds = new loan - existing payoff - refinance fees/prepaids/reserves: $________",
+      "Cash left in project = initial cash contributed - net proceeds: $________. Negative net proceeds mean additional cash is needed; this estimate is not a lender commitment.",
+      "Monthly rent $________ / vacancy ____% / monthly operating costs $________",
+      "Post-refi monthly cash flow = rent x (1 - vacancy) - operating costs - new monthly principal/interest - capital reserve: $________",
+      "Lower ARV / delayed refi / no-refi plan and cash required: __________________________________"
+    ]
+  ],
+  [
+    "Rehab walk checklist",
+    "Use the walk to scope questions for qualified specialists.",
+    [
+      "Property / date / inspector or contractor: ______________________________________________",
+      "[ ] Photograph and label visible issues with permission. Do not enter unsafe areas or disturb suspected hazardous materials.",
+      "[ ] Ask qualified inspectors about structure, foundation, roof, drainage, water intrusion, and site conditions.",
+      "[ ] Review electrical, plumbing, HVAC, water heating, and safety systems with licensed specialists where needed.",
+      "[ ] Record interior and exterior repairs, appliances, access issues, and code or permit questions.",
+      "[ ] Separate safety and required work from optional upgrades. Confirm rental-readiness requirements.",
+      "[ ] Obtain written scope, quantities, exclusions, permits, bids, and schedule dependencies.",
+      "[ ] Include contingency, carrying costs, utilities, insurance, and change-order approval rules.",
+      "[ ] Check contractor references, licensing/insurance as applicable, and payment milestones.",
+      "Priority item / estimated cost / source / unresolved risk: ___________________________________",
+      "This checklist does not replace a property inspection, engineering review, or environmental assessment."
+    ]
+  ],
+  [
+    "Appraisal prep checklist",
+    "Organize factual records without assuming a valuation outcome.",
+    [
+      "[ ] Ask the lender what documents may be submitted and how the appraisal process works.",
+      "[ ] Prepare a factual property summary with permitted use, layout, and verified measurements or source.",
+      "[ ] Gather permits, final approvals, dated before-and-after photos, and itemized completed work.",
+      "[ ] Keep receipts and paid invoices. Cost of work is not necessarily equal to added value.",
+      "[ ] Organize leases, rent roll, and operating records if requested by the lender or appraiser.",
+      "[ ] Identify relevant comparable properties with dates and differences; do not cherry-pick only the highest values.",
+      "[ ] Arrange authorized access, utilities, and safe inspection conditions.",
+      "[ ] Record unfinished work and material defects accurately. Never conceal adverse information.",
+      "[ ] Review the resulting report for factual errors through the lender\u2019s process. Respect appraiser independence.",
+      "Documents still needed / owner / due date: ______________________________________________"
+    ]
+  ],
+  [
+    "Refinance timeline checklist",
+    "Work backward from the loan maturity and your cash runway.",
+    [
+      "Target refinance date: ________   Existing loan maturity: ________   Cash runway: ________",
+      "Early planning: ask lenders about seasoning, title, occupancy, income coverage, loan size, and documentation requirements. Record requirements in writing.",
+      "Before rehab begins: confirm permits, scope, funding, and any completion conditions. Plan an exit that does not depend on a refinance.",
+      "During rehab: track costs and changes; retain paid invoices and inspection approvals. Update the cash runway.",
+      "Before application: assemble leases, insurance, financial records, entity/title documents, payoff details, and property information requested by the lender.",
+      "During underwriting: track appraisal, title, conditions, rate-lock terms, expiration dates, and any new cash requirement.",
+      "Before closing: review final loan terms, fees, prepayment provisions, cash to close, payment schedule, and reserve requirements with appropriate professionals.",
+      "After closing: reconcile proceeds and payoff; update debt service and reserve plans; calendar reporting and maturity dates.",
+      "Delay trigger / backup action / decision deadline: _________________________________________",
+      "No stage or date guarantees approval, value, rate, proceeds, or closing."
+    ]
+  ],
+  [
+    "Questions for a CPA",
+    "Bring records and questions, not an assumed tax outcome.",
+    [
+      "[ ] What records should I keep for this property, and how should ownership and activity be documented?",
+      "[ ] How should I distinguish repairs, improvements, acquisition costs, and financing costs in my records?",
+      "[ ] What information do you need to evaluate depreciation, placed-in-service dates, and land allocation?",
+      "[ ] Which limitations or classifications could affect the treatment of my rental activity in my circumstances?",
+      "[ ] What should I discuss with you before a refinance, ownership change, property sale, or exchange?",
+      "[ ] How should I track mixed personal/rental use, travel, management time, and shared expenses if relevant?",
+      "[ ] Are there federal, state, or local filing, withholding, or estimated-payment questions I should address?",
+      "[ ] What documents and deadlines should we plan for, and when should we revisit this review?",
+      "Records to bring: closing statements, leases, income/expense ledger, invoices, loan statements, prior returns, improvement history, and ownership documents as applicable.",
+      "CPA follow-up / records missing / next appointment: ______________________________________",
+      "This is a discussion checklist, not tax advice or a tax calculator. It contains no tax-savings estimates."
+    ]
+  ]
+]

@@ -1,0 +1,39 @@
+{
+  "name": "rental-cash-flow-lab",
+  "version": "1.0.0",
+  "description": "Rental investing education by Jay Adams",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "generate:downloads": "node scripts/generate-downloads.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaytr80/rental-cash-flow-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaytr80/rental-cash-flow-lab/issues"
+  },
+  "homepage": "https://github.com/Jaytr80/rental-cash-flow-lab#readme",
+  "private": true,
+  "dependencies": {
+    "lucide-react": "^1.49.0",
+    "next": "^16.3.7",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "pdfkit": "^0.20.2",
+    "prettier": "^3.9.9",
+    "typescript": "^5.9.3"
+  }
+}
