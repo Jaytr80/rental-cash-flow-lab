@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
+import { Logo } from "@/components/Logo";
 import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://rentalcashflowlab.com"),
@@ -23,14 +23,7 @@ export default function RootLayout({
         <header>
           <div className="nav-wrap">
             <Link className="brand" href="/">
-              <Image
-                className="brand-logo"
-                src="/brand/logo-rising-bars.jpg"
-                alt="Rental Cash Flow Lab"
-                width={1280}
-                height={720}
-                priority
-              />
+              <Logo preload />
             </Link>
             <nav aria-label="Main navigation">
               <Link href="/start-here">Start here</Link>
@@ -48,7 +41,7 @@ export default function RootLayout({
           <div className="footer-top">
             <div>
               <Link className="footer-brand" href="/">
-                Rental Cash Flow Lab
+                <Logo />
               </Link>
               <p>
                 Clearer thinking. More deliberate decisions.

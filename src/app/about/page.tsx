@@ -1,9 +1,11 @@
 import Link from "next/link";
 import { PageIntro } from "@/components/PageIntro";
+import { Logo } from "@/components/Logo";
 export const metadata = { title: "About Jay Adams" };
 export default function About() {
   return (
     <section className="wrap section narrow">
+      <Logo className="page-logo" />
       <PageIntro tag="ABOUT THE AUTHOR" title="Jay Adams">
         <p>
           Author of six books on residential real estate investing, rental cash

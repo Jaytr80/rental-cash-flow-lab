@@ -2,11 +2,13 @@ import Link from "next/link";
 import { ArrowUpRight, BookOpen, FileSpreadsheet, Layers } from "lucide-react";
 import { books } from "@/lib/books";
 import { BookCard } from "@/components/BookCard";
+import { Logo } from "@/components/Logo";
 export default function Home() {
   return (
     <>
       <section className="hero wrap">
         <div className="hero-copy">
+          <Logo className="page-logo" />
           <p className="eyebrow">
             <span className="dot" /> RENTAL INVESTING, WITH THE NUMBERS IN VIEW
           </p>

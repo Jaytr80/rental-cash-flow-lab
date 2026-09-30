@@ -370,10 +370,17 @@ h1 em {
   transform: translateY(-4px);
 }
 .brand-logo {
-  width: 320px;
-  height: 110px;
-  object-fit: cover;
+  width: 150px;
+  height: auto;
+  object-fit: contain;
   display: block;
+}
+.page-logo {
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 28px;
 }
 .nav-wrap {
   padding-top: 8px;
@@ -789,8 +796,8 @@ form .fine {
 
 @media (max-width: 760px) {
   .brand-logo {
-    width: 270px;
-    height: 95px;
+    width: 130px;
+    height: auto;
   }
   .nav-wrap {
     justify-content: center;
