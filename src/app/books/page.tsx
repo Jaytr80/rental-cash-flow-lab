@@ -11,13 +11,10 @@ export default function Books() {
           Adams.
         </p>
       </PageIntro>
-      <p className="fine affiliate">
-        Amazon links may be affiliate links. Cover graphics are editorial
-        representations, not official book covers.
-      </p>
+      <p className="fine affiliate">Amazon links may be affiliate links.</p>
       <div className="three-grid book-grid">
-        {books.map((book, index) => (
-          <BookCard key={book.id} book={book} index={index} />
+        {books.map((book) => (
+          <BookCard key={book.id} book={book} />
         ))}
       </div>
     </section>

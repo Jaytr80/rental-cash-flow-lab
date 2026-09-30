@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { House } from "lucide-react";
+import Image from "next/image";
 import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://rentalcashflowlab.com"),
@@ -23,13 +23,14 @@ export default function RootLayout({
         <header>
           <div className="nav-wrap">
             <Link className="brand" href="/">
-              <House size={28} strokeWidth={1.6} />
-              <span>
-                RENTAL CASH FLOW
-                <span className="brand-lab">
-                  LAB <i>by Jay Adams</i>
-                </span>
-              </span>
+              <Image
+                className="brand-logo"
+                src="/brand/logo-rising-bars.jpg"
+                alt="Rental Cash Flow Lab"
+                width={1280}
+                height={720}
+                priority
+              />
             </Link>
             <nav aria-label="Main navigation">
               <Link href="/start-here">Start here</Link>

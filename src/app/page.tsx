@@ -11,16 +11,17 @@ export default function Home() {
             <span className="dot" /> RENTAL INVESTING, WITH THE NUMBERS IN VIEW
           </p>
           <h1>
-            Good deals start
+            Build rental income.
             <br />
-            with better
+            Plan for lasting
             <br />
-            <em>questions.</em>
+            <em>wealth.</em>
           </h1>
           <p className="intro">
-            Learn to look past the listing. Explore books and practical tools
-            for understanding rental cash flow, weighing risk, and making a plan
-            of your own.
+            Learn how to turn rental properties into a plan for monthly cash
+            flow and long-term wealth. Jay Adams’s books and practical tools
+            help you analyze deals conservatively, prepare for real expenses,
+            and grow with a clear process.
           </p>
           <div className="actions">
             <Link className="button" href="/free-deal-analyzer">
@@ -140,13 +141,10 @@ export default function Home() {
               See all six books →
             </Link>
           </div>
-          <p className="fine affiliate">
-            Amazon links may be affiliate links. Cover graphics below are
-            editorial representations.
-          </p>
-          <div className="three-grid">
-            {books.slice(0, 3).map((book, index) => (
-              <BookCard key={book.id} book={book} index={index} />
+          <p className="fine affiliate">Amazon links may be affiliate links.</p>
+          <div className="three-grid book-grid">
+            {books.map((book) => (
+              <BookCard key={book.id} book={book} />
             ))}
           </div>
         </div>
