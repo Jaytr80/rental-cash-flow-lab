@@ -21,12 +21,12 @@ export default function Free() {
             Cap rate and cash-on-cash, plus optional DSCR and break-even
             occupancy
           </li>
-          <li>A printable worksheet and a blank CSV for your spreadsheet</li>
+          <li>An Excel file that does the math, and a printable worksheet</li>
         </ul>
         <p>
-          This is a worksheet you fill in, not an automated calculator. Use
-          documented estimates, include reserves, and test what happens when
-          conditions change.
+          The Excel file does the math from the numbers you type. The PDF
+          is the same sheet to print and fill by hand. Use documented
+          estimates, and pass when the rent or the loan is still a guess.
         </p>
         <p className="fine">
           Illustrative and educational only. Results depend on your inputs; they

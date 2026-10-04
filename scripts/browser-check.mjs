@@ -67,7 +67,7 @@ assert.match(
 assert.equal(await page.locator("a[download]").count(), 2);
 for (const file of [
   "conservative-rental-deal-analyzer.pdf",
-  "conservative-rental-deal-analyzer.csv",
+  "conservative-rental-deal-analyzer.xlsx",
 ])
   assert.equal(
     (await page.request.get(base + "/downloads/" + file)).status(),

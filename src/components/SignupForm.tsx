@@ -30,25 +30,25 @@ export function SignupForm() {
         <p>{message}</p>
         <a
           className="button"
-          href="/downloads/conservative-rental-deal-analyzer.pdf"
+          href="/downloads/conservative-rental-deal-analyzer.xlsx"
           download
         >
-          Download the PDF ↗
+          Download the Excel ↗
         </a>
         <p>
           <a
             className="text-link"
-            href="/downloads/conservative-rental-deal-analyzer.csv"
+            href="/downloads/conservative-rental-deal-analyzer.pdf"
             download
           >
-            Download the blank CSV →
+            Download the printable PDF →
           </a>
         </p>
       </div>
     );
   return (
     <form onSubmit={submit}>
-      <p className="eyebrow">FREE PDF + CSV</p>
+      <p className="eyebrow">FREE PDF + EXCEL</p>
       <h2>Start with your numbers.</h2>
       <label htmlFor="firstName">First name</label>
       <input

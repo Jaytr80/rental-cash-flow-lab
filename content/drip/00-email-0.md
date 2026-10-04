@@ -6,12 +6,10 @@ preview: "Your worksheet is ready. Start with one property and a few documented 
 
 Here are your free files:
 
+- [Excel file that does the math](https://rentalcashflowlab.com/downloads/conservative-rental-deal-analyzer.xlsx)
 - [Printable one-page PDF](https://rentalcashflowlab.com/downloads/conservative-rental-deal-analyzer.pdf)
-- [Blank CSV for your spreadsheet](https://rentalcashflowlab.com/downloads/conservative-rental-deal-analyzer.csv)
 
-Start with the purchase price and a supportable rent estimate. Write down the source and date. Add vacancy, operating expenses, debt payments, and a separate capital reserve. Use annual amounts where the sheet asks for annual amounts.
-
-Follow the formulas to estimate NOI, cash flow, cap rate, and cash-on-cash. The CSV is blank, not an automatic calculator. If a required number is unknown, mark it for research instead of quietly entering zero.
+Open the Excel file and type only in the green cells. Tan cells fill in on their own. HOA, utilities, and the loan are monthly. Management is a percent: type 8 for 8%. A blank cost counts as $0. The PDF is the same sheet if you want to print it and write by hand.
 
 The most useful result may be a question: which assumption still needs evidence?
 
