@@ -28,6 +28,16 @@ export default function Free() {
           is the same sheet to print and fill by hand. Use documented
           estimates, and pass when the rent or the loan is still a guess.
         </p>
+        <p>
+          <a className="button" href="/downloads/conservative-rental-deal-analyzer.xlsx">
+            Download the Excel
+          </a>
+        </p>
+        <p>
+          <a className="text-link" href="/downloads/conservative-rental-deal-analyzer.pdf">
+            Download the printable PDF
+          </a>
+        </p>
         <p className="fine">
           Illustrative and educational only. Results depend on your inputs; they
           are not a valuation, loan approval, or investment recommendation.
