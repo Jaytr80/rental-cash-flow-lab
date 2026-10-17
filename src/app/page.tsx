@@ -105,7 +105,7 @@ export default function Home() {
             <span className="card-number">01 / LEARN</span>
             <h3>Find your next read.</h3>
             <p>
-              Six books, from your first rental to portfolio planning and better
+              Eight books, from your first rental to portfolio planning and better
               CPA conversations.
             </p>
             <span className="text-link">Explore the books ↗</span>
@@ -140,7 +140,7 @@ export default function Home() {
               <h2>Learn for the stage you’re in.</h2>
             </div>
             <Link className="text-link" href="/books">
-              See all six books →
+              See all eight books →
             </Link>
           </div>
           <p className="fine affiliate">Amazon links may be affiliate links.</p>

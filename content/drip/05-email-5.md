@@ -13,7 +13,7 @@ Match your current goal to a book by Jay Adams:
 - Freedom number and planning: The Real Estate Investor’s Financial Freedom Map.
 - Prepare for a CPA conversation: The Real Estate Investor’s Tax Strategy Guide.
 
-[Find your starting point](https://rentalcashflowlab.com/start-here) or [browse all six books](https://rentalcashflowlab.com/books).
+[Find your starting point](https://rentalcashflowlab.com/start-here) or [browse all eight books](https://rentalcashflowlab.com/books).
 
 Amazon links may be affiliate links.
 

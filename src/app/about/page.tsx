@@ -8,7 +8,7 @@ export default function About() {
       <Logo className="page-logo" />
       <PageIntro tag="ABOUT THE AUTHOR" title="Jay Adams">
         <p>
-          Author of six books on residential real estate investing, rental cash
+          Author of eight books on residential real estate investing, rental cash
           flow, BRRRR, financial planning, and tax topics to discuss with a CPA.
         </p>
       </PageIntro>
@@ -31,7 +31,7 @@ export default function About() {
           qualified professionals for guidance specific to your situation.
         </p>
         <Link className="button" href="/books">
-          Explore the six books →
+          Explore the eight books →
         </Link>
       </div>
     </section>

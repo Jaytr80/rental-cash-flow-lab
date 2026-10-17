@@ -5,7 +5,7 @@ export const metadata = { title: "Books by Jay Adams" };
 export default function Books() {
   return (
     <section className="wrap section">
-      <PageIntro tag="THE BOOKSHELF" title="Six books. Your next chapter.">
+      <PageIntro tag="THE BOOKSHELF" title="Eight books. Your next chapter.">
         <p>
           Build your understanding one topic at a time. Every book is by Jay
           Adams.

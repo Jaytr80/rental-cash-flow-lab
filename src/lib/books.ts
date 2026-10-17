@@ -41,4 +41,18 @@ export const books = [
     text: "A practical tax strategy guide for U.S. rental property investors who want to understand after-tax cash flow. Explore depreciation, cost segregation, 1031 exchanges, and portfolio structures as part of a long-term wealth plan.",
     cover: "/covers/cover-6.jpg",
   },
+  {
+    title: "The Short-Term Rental Blueprint",
+    id: "B0HLZHRC7R",
+    goal: "Vacation rentals",
+    text: "A numbers-first guide to short-term rentals: how to find a market and property that pencil out, finance it, launch the listing, and run it profitably, with conservative assumptions instead of best-case revenue.",
+    cover: "/covers/cover-7.jpg",
+  },
+  {
+    title: "Creative Financing for Real Estate Investors",
+    id: "B0HM1V4QS4",
+    goal: "Creative deal financing",
+    text: "A practical guide to financing deals beyond the bank: seller financing, loan assumptions, lease options, and private money. It covers how each structure works, when it fits, and how to protect yourself on terms.",
+    cover: "/covers/cover-8.jpg",
+  },
 ];
