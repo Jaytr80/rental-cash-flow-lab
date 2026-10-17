@@ -62,6 +62,7 @@ export default function RootLayout({
             involves risk. Tools use the reader’s own inputs and are educational
             estimates.
           </p>
+          <p className="fine">As an Amazon Associate I earn from qualifying purchases.</p>
           <div className="footer-bottom">
             <span>© {new Date().getFullYear()} Rental Cash Flow Lab</span>
             <span>Education first. Always.</span>

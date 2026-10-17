@@ -11,7 +11,7 @@ export default function Books() {
           Adams.
         </p>
       </PageIntro>
-      <p className="fine affiliate">Amazon links may be affiliate links.</p>
+      <p className="fine affiliate">As an Amazon Associate I earn from qualifying purchases.</p>
       <div className="three-grid book-grid">
         {books.map((book) => (
           <BookCard key={book.id} book={book} />

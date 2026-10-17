@@ -5,7 +5,7 @@ export function BookCard({ book }: { book: (typeof books)[number] }) {
     <article className="book-card">
       <a
         className="book-cover"
-        href={`https://www.amazon.com/dp/${book.id}`}
+        href={`https://www.amazon.com/dp/${book.id}?tag=booklabpicks-20`}
         target="_blank"
         rel="noopener noreferrer sponsored"
         aria-label={`View ${book.title} on Amazon`}
@@ -23,7 +23,7 @@ export function BookCard({ book }: { book: (typeof books)[number] }) {
       <p>{book.text}</p>
       <a
         className="text-link"
-        href={`https://www.amazon.com/dp/${book.id}`}
+        href={`https://www.amazon.com/dp/${book.id}?tag=booklabpicks-20`}
         target="_blank"
         rel="noopener noreferrer sponsored"
       >
