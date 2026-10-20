@@ -28,7 +28,7 @@ export default function RootLayout({
             <nav aria-label="Main navigation">
               <Link href="/start-here">Start here</Link>
               <Link href="/books">Books</Link>
-              <Link href="/toolkit">The toolkit</Link>
+              <Link href="/toolkit">Analyzer Pro</Link>
               <Link href="/about">About</Link>
             </nav>
             <Link className="button small" href="/free-deal-analyzer">

@@ -123,12 +123,12 @@ export default function Home() {
           <Link className="path-card" href="/toolkit">
             <Layers />
             <span className="card-number">03 / GO DEEPER</span>
-            <h3>Build a repeatable process.</h3>
+            <h3>Run one house four ways.</h3>
             <p>
-              The upcoming toolkit brings deal screening, BRRRR planning, and
-              portfolio review together.
+              Rental Deal Analyzer Pro, $29: long-term, BRRRR, short-term, and
+              creative financing in one workbook.
             </p>
-            <span className="text-link">Preview the toolkit ↗</span>
+            <span className="text-link">See Analyzer Pro ↗</span>
           </Link>
         </div>
       </section>

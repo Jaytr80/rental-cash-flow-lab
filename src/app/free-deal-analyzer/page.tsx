@@ -1,5 +1,6 @@
 import { PageIntro } from "@/components/PageIntro";
 import { SignupForm } from "@/components/SignupForm";
+import { ProPromo } from "@/components/ProPromo";
 export const metadata = { title: "Free Conservative Rental Deal Analyzer" };
 export default function Free() {
   return (
@@ -42,6 +43,7 @@ export default function Free() {
           Illustrative and educational only. Results depend on your inputs; they
           are not a valuation, loan approval, or investment recommendation.
         </p>
+        <ProPromo lead="Want BRRRR, short-term, and seller-finance tabs?" />
       </div>
       <SignupForm />
     </section>

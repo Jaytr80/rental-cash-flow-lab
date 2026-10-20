@@ -1,6 +1,7 @@
 import { books } from "@/lib/books";
 import { BookCard } from "@/components/BookCard";
 import { PageIntro } from "@/components/PageIntro";
+import { ProPromo } from "@/components/ProPromo";
 export const metadata = { title: "Books by Jay Adams" };
 export default function Books() {
   return (
@@ -17,6 +18,7 @@ export default function Books() {
           <BookCard key={book.id} book={book} />
         ))}
       </div>
+      <ProPromo lead="Run the numbers from each book." />
     </section>
   );
 }
