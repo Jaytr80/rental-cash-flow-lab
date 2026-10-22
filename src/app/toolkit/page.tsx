@@ -28,7 +28,7 @@ const faqs = [
   ["Is it a subscription?", "No. $29 one time."],
   ["How do I get the files?", "After checkout you get an email with your download link and a quick-start guide."],
   ["Does it do taxes or tell me what to buy?", "No. It does the math on your own numbers. No tax calculations, no promised returns, no recommendations."],
-  ["Refunds?", "[refund policy: TBD]"],
+  ["Refunds?", "14-day money-back guarantee. If Pro isn’t useful, reply to your delivery email within 14 days of purchase for a full refund."],
 ];
 export default function Toolkit() {
   let checkout: string | undefined;
@@ -81,7 +81,7 @@ export default function Toolkit() {
           </h2>
           <p>Excel workbook, quick-start PDF, and the worksheet toolkit as a bonus.</p>
           <Buy label="Get Analyzer Pro — $29 ↗" />
-          <p className="fine">Refunds: [refund policy: TBD]</p>
+          <p className="fine">14-day money-back guarantee.</p>
         </div>
       </div>
       <div className="section">
