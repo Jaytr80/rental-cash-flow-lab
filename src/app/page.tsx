@@ -3,6 +3,9 @@ import { ArrowUpRight, BookOpen, FileSpreadsheet, Layers } from "lucide-react";
 import { books } from "@/lib/books";
 import { BookCard } from "@/components/BookCard";
 import { Logo } from "@/components/Logo";
+import { ProFeature } from "@/components/ProFeature";
+
+export const dynamic = "force-dynamic";
 export default function Home() {
   return (
     <>
@@ -87,6 +90,7 @@ export default function Home() {
         <span>ROOM FOR UNCERTAINTY</span>
         <span>A PLAN BEFORE A PURCHASE</span>
       </div>
+      <ProFeature />
       <section className="wrap section">
         <div className="section-heading">
           <div>
