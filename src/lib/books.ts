@@ -57,8 +57,7 @@ export const books = [
   },
   {
     title: "AI for Real Estate Investors",
-    // TODO(asin): Amazon listing not found yet (Nov 2, 2026). Set the ASIN here; until then the card shows "Coming soon to Amazon".
-    id: "",
+    id: "B0HQ1528X3",
     goal: "Invest with AI",
     text: "How to research markets, analyze deals, and manage investments using artificial intelligence. Compare listings, test cash flow, expenses, returns, short-term rentals, and financing, and learn to spot assumption and calculation errors. Includes 16 chapters, 20 reusable AI prompts, worksheets, review checklists, and a 30-day adoption plan.",
     cover: "/covers/cover-9.jpg",
