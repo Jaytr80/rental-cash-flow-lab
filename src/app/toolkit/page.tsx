@@ -3,7 +3,7 @@ import { PageIntro } from "@/components/PageIntro";
 export const metadata = {
   title: "Rental Deal Analyzer Pro",
   description:
-    "One Excel workbook for long-term rental, BRRRR, short-term rental, and creative financing math. $29 one-time.",
+    "One Excel workbook for long-term rental, BRRRR, short-term rental, and creative financing math. $9.99 one-time.",
 };
 export const dynamic = "force-dynamic";
 const tabs = [
@@ -25,7 +25,7 @@ const bonus = [
 ];
 const faqs = [
   ["What do I need to open it?", "Microsoft Excel 2016 or later, or Google Sheets. No software account."],
-  ["Is it a subscription?", "No. $29 one time."],
+  ["Is it a subscription?", "No. $9.99 one time."],
   ["How do I get the files?", "After checkout you get an email with your download link and a quick-start guide."],
   ["Does it do taxes or tell me what to buy?", "No. It does the math on your own numbers. No tax calculations, no promised returns, no recommendations."],
   ["Refunds?", "14-day money-back guarantee. If Pro isn’t useful, reply to your delivery email within 14 days of purchase for a full refund."],
@@ -77,10 +77,10 @@ export default function Toolkit() {
         <div className="price-card">
           <p className="eyebrow">RENTAL DEAL ANALYZER PRO</p>
           <h2>
-            $29 <span>one-time</span>
+            $9.99 <span>one-time</span>
           </h2>
           <p>Excel workbook, quick-start PDF, and the worksheet toolkit as a bonus.</p>
-          <Buy label="Get Analyzer Pro — $29 ↗" />
+          <Buy label="Get Analyzer Pro — $9.99 ↗" />
           <p className="fine">14-day money-back guarantee.</p>
         </div>
       </div>
@@ -123,7 +123,7 @@ export default function Toolkit() {
             <p>{a}</p>
           </div>
         ))}
-        <Buy label="Get Analyzer Pro — $29 ↗" />
+        <Buy label="Get Analyzer Pro — $9.99 ↗" />
         <p className="fine">
           Educational estimates using your own inputs. Real estate investing
           involves risk. Jay Adams is not a broker, lender, tax preparer,

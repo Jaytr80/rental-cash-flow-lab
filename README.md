@@ -36,7 +36,7 @@ Create an automation triggered by joining the configured group. Load emails 0–
 
 ## Toolkit and delivery
 
-The toolkit working price is $29 one-time. With no valid HTTPS checkout URL, the button is disabled. `/toolkit/thanks` never verifies a payment or exposes files. Before enabling checkout, configure real payment confirmation and delivery on the checkout provider; visiting a thank-you URL must never be treated as proof of purchase.
+The toolkit working price is $9.99 one-time. With no valid HTTPS checkout URL, the button is disabled. `/toolkit/thanks` never verifies a payment or exposes files. Before enabling checkout, configure real payment confirmation and delivery on the checkout provider; visiting a thank-you URL must never be treated as proof of purchase.
 
 As requested, toolkit assets are in `public/downloads/toolkit`: the 13-page PDF pack, one-page pipeline index, and pipeline CSV. They are not linked from the site, and robots excludes that directory. **Public assets and a public repository are not access control:** anyone who knows a file URL or views this repository can obtain them. For purchase-restricted delivery, move these assets to private provider storage and remove public copies before selling. This implementation intentionally adds no auth or database.
 

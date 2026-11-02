@@ -129,7 +129,7 @@ export default function Home() {
             <span className="card-number">03 / GO DEEPER</span>
             <h3>Run one house four ways.</h3>
             <p>
-              Rental Deal Analyzer Pro, $29: long-term, BRRRR, short-term, and
+              Rental Deal Analyzer Pro, $9.99: long-term, BRRRR, short-term, and
               creative financing in one workbook.
             </p>
             <span className="text-link">See Analyzer Pro ↗</span>

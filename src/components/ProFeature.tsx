@@ -45,17 +45,17 @@ export function ProFeature() {
             ))}
           </ul>
           <div className="pro-feature-price">
-            <strong>$29</strong>
+            <strong>$9.99</strong>
             <span>one-time · 14-day money-back guarantee</span>
           </div>
           <div className="actions">
             {checkout ? (
               <a className="button" href={checkout} rel="noopener noreferrer">
-                Get Analyzer Pro — $29 <ArrowUpRight size={18} />
+                Get Analyzer Pro — $9.99 <ArrowUpRight size={18} />
               </a>
             ) : (
               <Link className="button" href="/toolkit">
-                Get Analyzer Pro — $29 <ArrowUpRight size={18} />
+                Get Analyzer Pro — $9.99 <ArrowUpRight size={18} />
               </Link>
             )}
             <Link className="text-link" href="/toolkit">

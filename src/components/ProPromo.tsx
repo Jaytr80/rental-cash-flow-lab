@@ -2,7 +2,7 @@ import Link from "next/link";
 export function ProPromo({ lead }: { lead: string }) {
   return (
     <div className="callout pro-promo">
-      <p className="eyebrow">RENTAL DEAL ANALYZER PRO · $29</p>
+      <p className="eyebrow">RENTAL DEAL ANALYZER PRO · $9.99</p>
       <h2>{lead}</h2>
       <p>
         One Excel workbook: long-term rental, stress scenarios, BRRRR refi,

@@ -10,7 +10,7 @@ The Cash Flow Underwriting & Portfolio Toolkit adds a multi-deal pipeline CSV, F
 
 These are worksheets and checklists you fill with your own research. There is no tax calculator, no tax-savings projection, and no promised outcome.
 
-The working price is $29 one-time. That is not a guaranteed offer until checkout is connected; final terms appear at checkout. If checkout is not connected, the page will say so and will not collect payment.
+The working price is $9.99 one-time. That is not a guaranteed offer until checkout is connected; final terms appear at checkout. If checkout is not connected, the page will say so and will not collect payment.
 
 [Preview the toolkit and its current availability](https://rentalcashflowlab.com/toolkit).
 
