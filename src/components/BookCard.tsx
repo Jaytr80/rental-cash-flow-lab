@@ -1,11 +1,14 @@
 import Image from "next/image";
 import { books } from "@/lib/books";
 export function BookCard({ book }: { book: (typeof books)[number] }) {
+  const href = book.id
+    ? `https://www.amazon.com/dp/${book.id}?tag=booklabpicks-20`
+    : undefined;
   return (
     <article className="book-card">
       <a
         className="book-cover"
-        href={`https://www.amazon.com/dp/${book.id}?tag=booklabpicks-20`}
+        href={href}
         target="_blank"
         rel="noopener noreferrer sponsored"
         aria-label={`View ${book.title} on Amazon`}
@@ -23,11 +26,11 @@ export function BookCard({ book }: { book: (typeof books)[number] }) {
       <p>{book.text}</p>
       <a
         className="text-link"
-        href={`https://www.amazon.com/dp/${book.id}?tag=booklabpicks-20`}
+        href={href}
         target="_blank"
         rel="noopener noreferrer sponsored"
       >
-        View on Amazon ↗
+        {href ? "View on Amazon ↗" : "Coming soon to Amazon"}
       </a>
     </article>
   );

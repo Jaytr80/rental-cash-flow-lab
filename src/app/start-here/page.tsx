@@ -12,6 +12,7 @@ const goals = [
   { name: "I want to prepare for a conversation with my CPA", i: 5 },
   { name: "I want to run a short-term or vacation rental", i: 6 },
   { name: "I want to finance a deal beyond the bank", i: 7 },
+  { name: "I want to use AI to research and analyze deals", i: 8 },
 ];
 export default function Start() {
   return (

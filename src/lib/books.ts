@@ -55,4 +55,12 @@ export const books = [
     text: "A practical guide to financing deals beyond the bank: seller financing, loan assumptions, lease options, and private money. It covers how each structure works, when it fits, and how to protect yourself on terms.",
     cover: "/covers/cover-8.jpg",
   },
+  {
+    title: "AI for Real Estate Investors",
+    // TODO(asin): Amazon listing not found yet (Nov 2, 2026). Set the ASIN here; until then the card shows "Coming soon to Amazon".
+    id: "",
+    goal: "Invest with AI",
+    text: "How to research markets, analyze deals, and manage investments using artificial intelligence. Compare listings, test cash flow, expenses, returns, short-term rentals, and financing, and learn to spot assumption and calculation errors. Includes 16 chapters, 20 reusable AI prompts, worksheets, review checklists, and a 30-day adoption plan.",
+    cover: "/covers/cover-9.jpg",
+  },
 ];

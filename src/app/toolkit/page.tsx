@@ -112,7 +112,7 @@ export default function Toolkit() {
           <em>Creative Financing for Real Estate Investors</em>.
         </p>
         <Link className="text-link" href="/books">
-          See all eight books →
+          See all nine books →
         </Link>
       </div>
       <div className="section">
